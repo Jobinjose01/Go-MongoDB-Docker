@@ -6,8 +6,6 @@ Next, navigate in your terminal to the directory you cloned this, and spin up th
  `docker-compose up -d --build`.
 
 
-Bringing up the Docker Compose network with `site` instead of just using `up`, ensures that only our site's containers are brought up at the start, instead of all of the command containers as well. The following are built for our web server, with their exposed ports detailed:
-
 - **Go** - `:4000`
 - **Mongo** - `:27017`
 - **Mongo-Express** - `:8081`
