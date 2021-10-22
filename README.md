@@ -14,6 +14,9 @@ Access The Mongo Express
 
 `http://localhost:8081`
 
+### Your Go Source code 
+All the Go files should be placed inside the src folder.
+
 ### MongoDB Storage
 
 All the database data storage are mapped to you local folder mongo_storage
